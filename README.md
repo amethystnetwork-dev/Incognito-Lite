@@ -20,7 +20,7 @@
 
 <div align="center">
     <h2>Get Started</h2>
-    <a>To get started, press one of the buttons below to deploy Incognito</a>
+    <a>To get started, press one of the buttons below to deploy Incognito-Lite</a>
     <br>
     <br>
     <a href="https://app.cyclic.sh/api/app/deploy/amethystnetwork-dev/Incognito-Lite"><img height="30px" src="https://img.shields.io/badge/cyclic-2e59c7.svg?style=for-the-badge&logo=cyclic&logoColor=white"><img></a>
