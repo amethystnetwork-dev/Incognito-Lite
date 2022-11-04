@@ -1,0 +1,21 @@
+{
+  "name": "incognito-lite",
+  "version": "1.0.0",
+  "description": "Unofficial Incognito easy deployment version with TompHTTP bare server included using BUFFY.",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "files": [".gitignore", "app.json", ".replit", "replit.nix"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amethystnetwork-dev/Incognito-Lite"
+  },
+  "keywords": ["unoffical", "ultraviolet", "unblock", "titaniumnetwork", "bypass-filter", "amethystnetwork-dev"],
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "1.0.4-deps1",
+    "node-fetch": "^3.2.10"
+  }
+}
