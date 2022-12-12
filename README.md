@@ -30,7 +30,6 @@ You CANNOT deploy to Vercel, Netifly, GitHub Pages, or Cloudflare pages. They ar
     <br>
     <a href="https://app.cyclic.sh/api/app/deploy/amethystnetwork-dev/Incognito-Lite"><img height="30px" src="https://img.shields.io/badge/cyclic-2e59c7.svg?style=for-the-badge&logo=cyclic&logoColor=white"><img></a>
     <a href="https://amethystnetwork-dev.github.io/utils/deploy/replit?repo=Incognito-Lite"><img height="30px" src="https://amethystnetwork-dev.github.io/assets/replit.svg"><img></a>
-    <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/amethystnetwork-dev/Incognito-Lite&branch=main&name=incognito-lite"><img height="30px" src="https://img.shields.io/badge/koyeb-121212.svg?style=for-the-badge&logo=koyeb&logoColor=87fcc4"><img></a>
     <a href="https://glitch.com/edit/#!/import/github/amethystnetwork-dev/incognito-lite"><img height="30px" src="https://img.shields.io/badge/glitch-3333FF.svg?style=for-the-badge&logo=glitch&logoColor=ffffff"><img></a>
 </div>
 
