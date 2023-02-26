@@ -6,20 +6,32 @@
   "scripts": {
     "start": "node index.js"
   },
-  "files": [".gitignore", "app.json", ".replit", "replit.nix"],
+  "files": [
+    ".gitignore",
+    "app.json",
+    ".replit",
+    "replit.nix"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amethystnetwork-dev/Incognito-Lite"
   },
-  "keywords": ["unoffical", "ultraviolet", "unblock", "titaniumnetwork", "bypass-filter", "amethystnetwork-dev"],
+  "keywords": [
+    "unoffical",
+    "ultraviolet",
+    "unblock",
+    "titaniumnetwork",
+    "bypass-filter",
+    "amethystnetwork-dev"
+  ],
   "author": "",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@tomphttp/bare-server-node": "1.0.4-deps1",
-    "node-fetch": "^3.2.10"
+    "@tomphttp/bare-server-node": "^1.2.3",
+    "node-fetch": "^3.3.0"
   },
   "engines": {
-		"npm": ">=8.0.0",
-		"node": ">=16.0.0"
-	}
+    "npm": ">=8.0.0",
+    "node": ">=18.0.0"
+  }
 }

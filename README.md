@@ -1,7 +1,7 @@
 <!-- Notice for idiots -->
 # NOTICE:
 
-You CANNOT deploy to Vercel, Netifly, GitHub Pages, or Cloudflare pages. They are static hosts, they just act as a web facing file system, you need the actual proxy for this to work.
+You CANNOT deploy to Netifly, GitHub Pages, or Cloudflare pages. They are static hosts, they just act as a web facing file system, you need the actual proxy for this to work.
 
 <!--
                                 _     _                     _       _   _          _                               _    
@@ -29,9 +29,14 @@ You CANNOT deploy to Vercel, Netifly, GitHub Pages, or Cloudflare pages. They ar
     <br>
     <br>
     <a href="https://app.cyclic.sh/api/app/deploy/amethystnetwork-dev/Incognito-Lite"><img height="30px" src="https://img.shields.io/badge/cyclic-2e59c7.svg?style=for-the-badge&logo=cyclic&logoColor=white"><img></a>
-    <a href="https://amethystnetwork-dev.github.io/utils/deploy/replit?repo=Incognito-Lite"><img height="30px" src="https://amethystnetwork-dev.github.io/assets/replit.svg"><img></a>
-     <a href="https://render.com/deploy?repo=https://github.com/amethystnetwork-dev/i\Incognito-Lite"><img height="30px" src="https://img.shields.io/badge/render-4f65f1.svg?style=for-the-badge&logo=render&logoColor=46e3b7"><img></a>
-    <a href="https://glitch.com/edit/#!/import/github/amethystnetwork-dev/incognito-lite"><img height="30px" src="https://img.shields.io/badge/glitch-3333FF.svg?style=for-the-badge&logo=glitch&logoColor=ffffff"><img></a>
+    <a href="https://amethystnetwork-dev.github.io/docs/about-replit?repo=Incognito-Lite"><img height="30px" src="https://amethystnetwork-dev.github.io/assets/replit.svg"><img></a>
+     <a href="https://render.com/deploy?repo=https://github.com/amethystnetwork-dev/Incognito-Lite"><img height="30px" src="https://img.shields.io/badge/render-4f65f1.svg?style=for-the-badge&logo=render&logoColor=46e3b7"><img></a>
+    <a href="https://glitch.com/edit/#!/import/github/amethystnetwork-dev/Incognito-Lite"><img height="30px" src="https://img.shields.io/badge/glitch-3333FF.svg?style=for-the-badge&logo=glitch&logoColor=ffffff"><img></a>
+    <br>
+    <br>
+    <a href="https://alienhub.xyz/?utm_medium=amethystnetwork">
+      <img src="https://alienhub.xyz/alien1.gif" width="450" height="150"></img>
+    </a>
 </div>
 
 ## Discord Server
