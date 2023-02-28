@@ -43,7 +43,7 @@ You CANNOT deploy to Netifly, GitHub Pages, or Cloudflare pages. They are static
 
 Press the join button to join the server:
 
-[![Join us on Discord](https://invidget.switchblade.xyz/J3VPy5Vy8x?theme=light)](https://discord.gg/J3VPy5Vy8x)
+[![Join us on Discord](https://invidget.switchblade.xyz/fzrmxgu2NR?theme=light)](https://discord.gg/fzrmxgu2NR)
 
 ## Who this repository is for
 
