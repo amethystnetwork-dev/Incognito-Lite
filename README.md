@@ -55,5 +55,5 @@ If you want to deploy Incognito on your own server or services that support the 
 
 Because some deploy options have very limited storage, we had to trim down the size of this repository.
 
-- Website static files, games and apps) are hosted on GitHub Pages from the [main Incognito repository](https://github.com/amethystnetwork-dev/Incognito).
+- Website static files, games and apps are hosted on GitHub Pages from the [main Incognito repository](https://github.com/amethystnetwork-dev/Incognito).
 - They are proxied with a modified version of [BUFFY](https://github.com/retronbv/buffy)
