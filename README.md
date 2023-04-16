@@ -35,7 +35,7 @@ You CANNOT deploy to Netifly, GitHub Pages, or Cloudflare pages. They are static
     <br>
     <br>
     <a href="https://alienhub.xyz/?utm_source=incog_lite_gh&utm_medium=amethystnetwork">
-      <img src="https://alienhub.xyz/alien1.gif" width="450" height="150"></img>
+      <img src="https://alienhub.xyz/images/ad-c8de3fef-bff1-4963-a417-3995855d70e0.gif" width="450" height="150"></img>
     </a>
 </div>
 

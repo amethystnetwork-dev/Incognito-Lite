@@ -1,11 +1,10 @@
 import createBareServer from "@tomphttp/bare-server-node";
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 
-import axios from "axios";
 import http from "node:http";
-
 import serveStatic from "serve-static";
 import connect from "connect";
+import Buffy from "./buffy.js";
 
 console.log(`
 ██████╗ ██╗   ██╗███████╗███████╗██╗   ██╗
@@ -19,6 +18,14 @@ console.log(`
 // The following message MAY NOT be removed
 console.log("Incognito-Lite\nThis program comes with ABSOLUTELY NO WARRANTY.\nThis is free software, and you are welcome to redistribute it\nunder the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nYou should have received a copy of the GNU General Public License\nalong with this program. If not, see <https://www.gnu.org/licenses/>.\n");
 
+const proxy = new Buffy({
+  url: "https://amethystnetwork-dev.github.io/Incognito/static",
+  validateStatus: (status) => status !== 404
+}); // Proxy the static folder
+const gs = new Buffy({
+  url: "https://amethystnetwork-dev.github.io/Incognito/gsource",
+  validateStatus: (status) => status !== 404
+}); // Proxy the game files
 const app = connect();
 const bare = createBareServer("/bare/");
 const server = http.createServer();
@@ -28,21 +35,8 @@ app.use((req, res, next) => {
 });
 
 app.use("/service", (req, res) => res.end("OK"));
-
-app.use(async (req, res, next) => {
-  try {
-    const response = await axios({
-      method: req.method,
-      url: "https://amethystnetwork-dev.github.io/Incognito/static" + req.url,
-      responseType: "stream",
-      validateStatus: (status) => status !== 404
-    });
-    res.writeHead(response.status, { "Content-Type": response.headers.get("content-type").split(";")[0] });
-    response.data.pipe(res);
-  } catch {
-    next();
-  }
-});
+app.use("/source", (req, res, next) => gs.request(req, res, next));
+app.use((req, res, next) => proxy.request(req, res, next));
 
 app.use("/uv", serveStatic(uvPath));
 
