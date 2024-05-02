@@ -34,8 +34,6 @@ You CANNOT deploy to Netifly, GitHub Pages, or Cloudflare pages. They are static
     <a href="https://glitch.com/edit/#!/import/github/amethystnetwork-dev/Incognito-Lite"><img height="30px" src="https://img.shields.io/badge/glitch-3333FF.svg?style=for-the-badge&logo=glitch&logoColor=ffffff"><img></a>
     <br>
     <br>
-    <a href="https://alienhub.xyz/?utm_source=incog_lite_gh&utm_medium=amethystnetwork">
-      <img src="https://alienhub.xyz/images/ad-c8de3fef-bff1-4963-a417-3995855d70e0.gif" width="450" height="150"></img>
     </a>
 </div>
 
